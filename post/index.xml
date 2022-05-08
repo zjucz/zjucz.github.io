@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Z.Cao</title><link>www.caoz.top/post/</link><atom:link href="www.caoz.top/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>浙ICP备2021027422号-1 Copyright@2022 Zheng Cao</copyright><lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate><image><url>/www.caoz.top/media/icon_hu11361c0288a87fbf93fc0f06f84edd26_64780_512x512_fill_lanczos_center_2.png</url><title>Posts</title><link>www.caoz.top/post/</link></image><item><title>Training 2D nnUNet with personal dataset</title><link>www.caoz.top/post/training-2d-nnunet-with-personal-dataset/</link><pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate><guid>www.caoz.top/post/training-2d-nnunet-with-personal-dataset/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts | Z.Cao</title><link>https://zjucz.github.io/post/</link><atom:link href="https://zjucz.github.io/post/index.xml" rel="self" type="application/rss+xml"/><description>Posts</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>浙ICP备2021027422号-1 Copyright@2022 Zheng Cao</copyright><lastBuildDate>Sat, 10 Apr 2021 00:00:00 +0000</lastBuildDate><image><url>https://zjucz.github.io/media/icon_hu11361c0288a87fbf93fc0f06f84edd26_64780_512x512_fill_lanczos_center_2.png</url><title>Posts</title><link>https://zjucz.github.io/post/</link></image><item><title>Training 2D nnUNet with personal dataset</title><link>https://zjucz.github.io/post/training-2d-nnunet-with-personal-dataset/</link><pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate><guid>https://zjucz.github.io/post/training-2d-nnunet-with-personal-dataset/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>nnUNet (no-new-network-Unet) is proposed to offer a end-to-end training for image segmentation, and achieve state-of-the-art performance in over 10 medical image segmentation tasks, as introduced in paper &lt;a href="https://www.nature.com/articles/s41592-020-01008-z" target="_blank" rel="noopener">Automated Design of Deep Learning Methods for Biomedical Image Segmentation&lt;/a>.&lt;/p>
 &lt;p>&lt;img src="./arch.png" alt="png">&lt;/p>
 &lt;p>Although uuUNet is easy to ulitize in 3D segmentation tasks, it&amp;rsquo;s difficult to train a personal dataset with 2d images. The preparation of dataset should follow strict guidelines.&lt;/p>
@@ -88,7 +88,7 @@ CUDA_VISIBLE_DEVICES=6 nnUNet_train 2d nnUNetTrainerV2 Task002_Heart 1 --npz
 CUDA_VISIBLE_DEVICES=6 nnUNet_train 2d nnUNetTrainerV2 Task002_Heart 2 --npz
 CUDA_VISIBLE_DEVICES=6 nnUNet_train 2d nnUNetTrainerV2 Task002_Heart 3 --npz
 CUDA_VISIBLE_DEVICES=6 nnUNet_train 2d nnUNetTrainerV2 Task002_Heart 4 --npz
-&lt;/code>&lt;/pre></description></item><item><title>Writing technical content in Academic</title><link>www.caoz.top/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>www.caoz.top/post/writing-technical-content/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
+&lt;/code>&lt;/pre></description></item><item><title>Writing technical content in Academic</title><link>https://zjucz.github.io/post/writing-technical-content/</link><pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate><guid>https://zjucz.github.io/post/writing-technical-content/</guid><description>&lt;p>Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p>
 &lt;p>&lt;strong>Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong>&lt;/p>
 &lt;p>On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p>
 &lt;h2 id="examples">Examples&lt;/h2>
@@ -109,7 +109,7 @@ data.head()
 &lt;p>Academic supports the popular &lt;a href="https://plot.ly/" target="_blank" rel="noopener">Plotly&lt;/a> chart format.&lt;/p>
 &lt;p>Save your Plotly JSON in your page folder, for example &lt;code>chart.json&lt;/code>, and then add the &lt;code>{{&amp;lt; chart data=&amp;quot;chart&amp;quot; &amp;gt;}}&lt;/code> shortcode where you would like the chart to appear.&lt;/p>
 &lt;p>Demo:&lt;/p>
-&lt;div id="chart-926148573" class="chart">&lt;/div>
+&lt;div id="chart-635479821" class="chart">&lt;/div>
 &lt;script>
 (function() {
 let a = setInterval( function() {
@@ -118,7 +118,7 @@ return;
 }
 clearInterval( a );
 Plotly.d3.json("./line-chart.json", function(chart) {
-Plotly.plot('chart-926148573', chart.data, chart.layout, {responsive: true});
+Plotly.plot('chart-635479821', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -338,7 +338,7 @@ You found me!
 &lt;i class="fas fa-terminal pr-1 fa-fw">&lt;/i> Terminal&lt;br>
 &lt;i class="fab fa-python pr-1 fa-fw">&lt;/i> Python&lt;br>
 &lt;i class="fab fa-r-project pr-1 fa-fw">&lt;/i> R&lt;/p>
-&lt;h3 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h3></description></item><item><title>Display Jupyter Notebooks with Academic</title><link>www.caoz.top/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>www.caoz.top/post/jupyter/</guid><description>&lt;pre>&lt;code class="language-python">from IPython.core.display import Image
+&lt;h3 id="did-you-find-this-page-helpful-consider-sharing-it-">Did you find this page helpful? Consider sharing it 🙌&lt;/h3></description></item><item><title>Display Jupyter Notebooks with Academic</title><link>https://zjucz.github.io/post/jupyter/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://zjucz.github.io/post/jupyter/</guid><description>&lt;pre>&lt;code class="language-python">from IPython.core.display import Image
 Image('https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png')
 &lt;/code>&lt;/pre>
 &lt;p>&lt;img src="./index_1_0.png" alt="png">&lt;/p>
